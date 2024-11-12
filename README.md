@@ -7,10 +7,10 @@ This repository contains Matlab code for minimal working examples using the two-
 A basic pseudoarclength continuation procedure is given in `simpleContinuation.m` to solve the equations of motion with a harmonic balance formalism [2]. It may require fine tuning, and for a more advanced use, a more robust continuation code/toolbox is recommended.
 
 The method can be applied by running the following examples:
-* `duffingOscillator_ConstantForce`: constant-force THHM applied to a Duffing oscillator
-* `duffingOscillator_ConstantAmplitude`: constant-amplitude THHM applied to a Duffing oscillator
-* `twoDof`: constant-amplitude THHM applied to a two-degree-of-freedom system
-* `beam`: constant-amplitude THHM applied to a cantilever beam with clearance contact
+* `duffingOscillator_ConstantForce.m`: constant-force THHM applied to a Duffing oscillator
+* `duffingOscillator_ConstantAmplitude.m`: constant-amplitude THHM applied to a Duffing oscillator
+* `twoDof.m`: constant-amplitude THHM applied to a two-degree-of-freedom system
+* `beam.m`: constant-amplitude THHM applied to a cantilever beam with clearance contact
 
 ## References
 
