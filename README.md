@@ -7,10 +7,10 @@ This repository contains Matlab code for minimal working examples using the two-
 A basic pseudoarclength continuation procedure is given in `simpleContinuation.m` to solve the equations of motion with a harmonic balance formalism [2]. It may require fine tuning. A more robust continuation code/toolbox is recommended for a more advanced use.
 
 The method can be applied by running the following examples:
-* `duffingOscillator_ConstantForce.m`: constant-force THHM applied to a Duffing oscillator
-* `duffingOscillator_ConstantAmplitude.m`: constant-amplitude THHM applied to a Duffing oscillator
-* `twoDof.m`: constant-amplitude THHM applied to a two-degree-of-freedom system
-* `beam.m`: constant-amplitude THHM applied to a cantilever beam with clearance contact
+* `duffingOscillator_ConstantForce.m`: constant-force THHM applied to a Duffing oscillator (1:3 subharmonic resonance by default)
+* `duffingOscillator_ConstantAmplitude.m`: constant-amplitude THHM applied to a Duffing oscillator (1:3 subharmonic resonance by default)
+* `twoDof.m`: constant-amplitude THHM applied to a two-degree-of-freedom system (1:2 subharmonic resonance by default)
+* `beam.m`: constant-amplitude THHM applied to a cantilever beam with clearance contact (1:3 and 1:5 subharmonic resonances by default)
 
 ## References
 [1] Raze G, Kerschen G. 2024 A two-harmonic homotopy method to connect a primary resonance to its secondary resonances. Preprint.
