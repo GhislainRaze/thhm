@@ -10,7 +10,7 @@ A basic pseudoarclength continuation procedure is given in simpleContinuation.m.
 
 [1] Raze G, Kerschen G. 2024 A two-harmonic homotopy method to connect a primary resonance to its secondary resonances. Preprint.
 
-[2] Detroux T, Renson L, Masset L, Kerschen G. 2015 The harmonic balance method for bifurcation analysis of large-scale nonlinear mechanical systems. Computer Methods in Applied Mechanics and Engineering 296, 18–38. [10.1016/j.cma.2015.07.017](https://doi.org/10.1016/j.cma.2015.07.017).
+[2] Detroux T, Renson L, Masset L, Kerschen G. 2015 The harmonic balance method for bifurcation analysis of large-scale nonlinear mechanical systems. Computer Methods in Applied Mechanics and Engineering 296, 18–38. doi: [10.1016/j.cma.2015.07.017](https://doi.org/10.1016/j.cma.2015.07.017).
 
 ## Disclaimer
 This code comes with no warranty.
