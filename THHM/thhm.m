@@ -1,3 +1,38 @@
+%
+% Two-harmonic homotopy method
+%
+% Input:
+%   * (X,Lambda): results of a continuation of the main NFR (Fourier
+%   coefficients, frequency)
+%   * m,l: incommensurate natural coefficients of the m:l resonance
+%   * phir: estimated resonant phase lag
+%   * cstrType2: second type of constraint
+%     * 1: total forcing amplitude constraint
+%     * 2: harmonic amplitude constraint
+%     * other: total amplitude constraint
+%   * f: forcing amplitude 
+%   * fext: forcing vector
+%   * Ndofs: number of degrees of freedom
+%   * Nh: number of harmonics
+%   * A0, A1, A2: HB linear structural matrices
+%   * NL: nonlinearity
+%   * Gamma: discrete Fourier transform matrix
+%   * NFT: number of points in the Fourier transform
+%   * SC: simpleContinuation object
+%   * fBounds: bounds for the force for the THHM
+%   * indCond: condensed harmonic coefficients (optional)
+%   * uextr: localization vector for the dof of interest
+% Output:
+%   * (XTH,LambdaTH): THHM results:
+%     * XTH = [zTH ; OmegaTH ; fl] (Fourier coefficients, frequency,
+%     forcing on the lth harmonic)
+%     * LambdaTH = fm (forcing on the mth harmonic)
+%   * (bm,bl): forcing vectors of the mth and lth harmonics, respectively
+%   * (xI, wI, fI): initial guesses for an isola
+%     * xI: Fourier coefficients
+%     * wI: frequency
+%     * fI: forcing amplitude
+%   
 function [XTH,LambdaTH,bm,bl,xI,wI,fI] = thhm(X,Lambda,m,l,phir,cstrType2,f,fext,Ndofs,Nh,A0,A1,A2,NL,Gamma,NFT,SC,fBounds,indCond,uextr)
   
   if nargin < 18
