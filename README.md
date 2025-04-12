@@ -13,7 +13,7 @@ The method can be applied by running the following examples:
 * `beam.m`: constant-amplitude THHM applied to a cantilever beam with clearance contact (1:3 and 1:5 subharmonic resonances by default)
 
 ## References
-[1] Raze G, Kerschen G. 2024 A two-harmonic homotopy method to connect a primary resonance to its secondary resonances. Preprint.
+[1] Raze G, Kerschen G. 2024 A two-harmonic homotopy method to connect a primary resonance to its secondary resonances. Proceedings of the Royal Society A 481, 20240875. doi: [10.1098/rspa.2024.0875](https://doi.org/10.1098/rspa.2024.0875).
 
 [2] Detroux T, Renson L, Masset L, Kerschen G. 2015 The harmonic balance method for bifurcation analysis of large-scale nonlinear mechanical systems. Computer Methods in Applied Mechanics and Engineering 296, 18–38. doi: [10.1016/j.cma.2015.07.017](https://doi.org/10.1016/j.cma.2015.07.017).
 
