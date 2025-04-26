@@ -1,5 +1,7 @@
 # Two-harmonic homotopy method
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14775562.svg)](https://doi.org/10.5281/zenodo.14775562)
+
 ## Description
 
 This repository contains Matlab code for minimal working examples using the two-harmonic homotopy method (THHM) to uncover isolated secondary resonances [1].
